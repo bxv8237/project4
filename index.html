@@ -5,44 +5,45 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <title>DEMO</title>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        
+        <title>Pepper's Day</title>
+        <script>
+          $(".main").onepage_scroll({
+          sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+          easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+                                    // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+          animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
+          pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+          updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+          beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+          afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+          loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+          keyboard: true,                  // You can activate the keyboard controls
+          responsiveFallback: false,       // You can fallback to normal page scroll by defining the width of the browser in which
+                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+                                    // the browser's width is less than 600, the fallback will kick in.
+          direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+          });
+        </script>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
-        <script src="js/jquery-3.2.0.js"></script>
-    
-    <div class="wrapper">
-	  <div class="main">
-	    
-          <section class="page1">
-            <div class="page_container">
-              <h1>Page 1</h1>
-              <p>Lorem ipsum dolor sit amet, nulla lacus iaculis lorem sapien, elit diam felis nibh ultricies ut lorem, purus auctor fusce platea wisi, nisl lobortis suspendisse urna orci consequat. Mi tellus penatibus massa vivamus, nunc sequi nec phasellus nec, tellus volutpat etiam eget magna nec sodales, elit sollicitudin. Tincidunt eget integer egestas, eleifend non elementum ac sed in in. Consectetuer suspendisse ultricies, cras at magna etiam leo fusce tempus, dolor vehicula quam cursus, ante risus justo nisl vel lectus. Vestibulum lacus nunc risus posuere velit molestie. Id quam est cursus dolor curabitur, eros rhoncus at nec, nisl euismod blandit pretium consequat non feugiat. Egestas semper tristique nulla est veritatis mauris, mauris nibh nunc similique tellus, lacinia mi nulla integer varius neque, morbi quam.Vulputate parturient nonummy tellus neque viverra. Orci consectetuer, dapibus eu. Phasellus id malesuada aliquam ut, viverra id tempor, ullamcorper mi aliquam ultricies laoreet porta. Pede sem lorem pretium, sit vivamus eu velit amet, eros venenatis. Velit tempor tristique in pede, ut sem, pulvinar rutrum tortor, et ante amet eget viverra eu ut, eu tempor metus. Risus sodales nunc hendrerit, proin hac, proin ullamcorper, diam pharetra leo, erat habitasse at sociis. Odio praesent non consectetuer urna mauris malesuada. Sed rerum ac et lacus integer consectetuer. Etiam vel, et tempus. Pellentesque integer, augue donec in porta amet sapien in, vestibulum sed diam posuere turpis.</p>
+        <div class="intro">
+            <h1>A DAY IN THE LIFE OF PEPPER</h1>
+            <img class="greetpepper" src="images/greetpepper.svg" alt ="introduction of pepper">
+            <div class="carpet">
+                <h2>Scroll down to see Pepper's day!</h2>
             </div>
-            <!--<img src="png" alt="">-->
-          </section>
-          
-          <section class="page2">
-            <div class="page_container">
-              <h1>Page 2</h1>
-              <p>Lorem ipsum dolor sit amet, nulla lacus iaculis lorem sapien, elit diam felis nibh ultricies ut lorem, purus auctor fusce platea wisi, nisl lobortis suspendisse urna orci consequat. Mi tellus penatibus massa vivamus, nunc sequi nec phasellus nec, tellus volutpat etiam eget magna nec sodales, elit sollicitudin. Tincidunt eget integer egestas, eleifend non elementum ac sed in in. Consectetuer suspendisse ultricies, cras at magna etiam leo fusce tempus, dolor vehicula quam cursus, ante risus justo nisl vel lectus. Vestibulum lacus nunc risus posuere velit molestie. Id quam est cursus dolor curabitur, eros rhoncus at nec, nisl euismod blandit pretium consequat non feugiat. Egestas semper tristique nulla est veritatis mauris, mauris nibh nunc similique tellus, lacinia mi nulla integer varius neque, morbi quam.Vulputate parturient nonummy tellus neque viverra. Orci consectetuer, dapibus eu. Phasellus id malesuada aliquam ut, viverra id tempor, ullamcorper mi aliquam ultricies laoreet porta. Pede sem lorem pretium, sit vivamus eu velit amet, eros venenatis. Velit tempor tristique in pede, ut sem, pulvinar rutrum tortor, et ante amet eget viverra eu ut, eu tempor metus. Risus sodales nunc hendrerit, proin hac, proin ullamcorper, diam pharetra leo, erat habitasse at sociis. Odio praesent non consectetuer urna mauris malesuada. Sed rerum ac et lacus integer consectetuer. Etiam vel, et tempus. Pellentesque integer, augue donec in porta amet sapien in, vestibulum sed diam posuere turpis.</p>
-            </div>
-            <!--<img src="png" alt="">-->
-          </section>
-          
-          <section class="page3">
-            <div class="page_container">
-              <h1>Page 3</h1>
-              <p>Lorem ipsum dolor sit amet, nulla lacus iaculis lorem sapien, elit diam felis nibh ultricies ut lorem, purus auctor fusce platea wisi, nisl lobortis suspendisse urna orci consequat. Mi tellus penatibus massa vivamus, nunc sequi nec phasellus nec, tellus volutpat etiam eget magna nec sodales, elit sollicitudin. Tincidunt eget integer egestas, eleifend non elementum ac sed in in. Consectetuer suspendisse ultricies, cras at magna etiam leo fusce tempus, dolor vehicula quam cursus, ante risus justo nisl vel lectus. Vestibulum lacus nunc risus posuere velit molestie. Id quam est cursus dolor curabitur, eros rhoncus at nec, nisl euismod blandit pretium consequat non feugiat. Egestas semper tristique nulla est veritatis mauris, mauris nibh nunc similique tellus, lacinia mi nulla integer varius neque, morbi quam.Vulputate parturient nonummy tellus neque viverra. Orci consectetuer, dapibus eu. Phasellus id malesuada aliquam ut, viverra id tempor, ullamcorper mi aliquam ultricies laoreet porta. Pede sem lorem pretium, sit vivamus eu velit amet, eros venenatis. Velit tempor tristique in pede, ut sem, pulvinar rutrum tortor, et ante amet eget viverra eu ut, eu tempor metus. Risus sodales nunc hendrerit, proin hac, proin ullamcorper, diam pharetra leo, erat habitasse at sociis. Odio praesent non consectetuer urna mauris malesuada. Sed rerum ac et lacus integer consectetuer. Etiam vel, et tempus. Pellentesque integer, augue donec in porta amet sapien in, vestibulum sed diam posuere turpis.</p>
-            </div>
-            <!--<img src="png" alt="">-->
-          </section>
         </div>
-    </div>
-        
-    <script src="main.js"></script>
+        <div class="pepperWake"></div>
+        <div class="time_6AM"></div>
+        <div class="time_8AM"></div>
+        <div class="time_11AM"></div>
+        <div class="time_12PM"></div>
+        <div class="time_3PM"></div>
+        <div class="time_4PM"></div>
+        <div class="time_5PM"></div>
+        <div class="time_6PM"></div>
+        <div class="time_9PM"></div>
+        <div class="pepperSleep"></div>
     </body>
 </html>
