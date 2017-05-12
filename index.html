@@ -18,9 +18,10 @@
                 <h2>Scroll down to see Pepper's day!</h2>
             </div>
         </div>
-        <div class="pepperWake"></div>
+        <div class="pepperWake">
+        </div>
         <div class="time_6AM"></div>
-        <div class="time_8AM"></div>
+        <div class="time_8AM" onclick="scrollWin()"></div>
         <div class="time_11AM"></div>
         <div class="time_12PM"></div>
         <div class="time_3PM"></div>
@@ -29,5 +30,10 @@
         <div class="time_6PM"></div>
         <div class="time_9PM"></div>
         <div class="pepperSleep"></div>
+    <script>
+      function scrollWin() {
+        window.scrollTo(500, 0);
+      }
+    </script>
     </body>
 </html>
