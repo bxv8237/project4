@@ -1,38 +1,39 @@
-html, body {
-    height: 100%;
-    }
+html, body{
+    margin: 0px;
+    background-color: #f29f9c;
+    font-family: Helvetica Neue;
+    text-align: center;
+    color: #042f42;
+    font-size: 30px;
+}
 
-    body {
-      background: #E2E4E7;
-      padding: 0;
-      text-align: center;
-      font-family: 'open sans';
-      position: relative;
-      margin: 0;
-      height: 100%;
-    }
+h1 {
     
-    .wrapper {
-    	height: 100% !important;
-    	height: 100%;
-    	margin: 0 auto; 
-    	overflow: hidden;
-    }
+}
 
-    .page1{
-        background-color: aqua;
-        width: 100%;
-        height: 100%;
-    }
+h2{
+    
+}
 
-    .page2{
-        background-color: red;
-        width: 100%;
-        height: 100%;
-    }
+.greetpepper{
+    width: 300px;
+}
 
-    .page3{
-            background-color: blue;
-            width: 100%;
-            height: 100%;
-    }
+.carpet{
+    background-color: #dd685f;
+    width: 100%;
+    height: 400px;
+    padding-top: 1px;
+}
+
+.time_6AM{
+    background-color: red;
+    width: 100%;
+    height: 800px;
+}
+
+.time_8AM{
+    background-color: aqua;
+    width: 100%;
+    height: 800px;
+}
