@@ -6,7 +6,11 @@ html, body{
     color: #042f42;
     font-size: 30px;
 }
+.page{
+    background-image: url("images/night.svg")
+}
 
+/*
 .greetpepper{
     width: 300px;
 }
@@ -29,3 +33,12 @@ html, body{
     width: 100%;
     height: 800px;
 }
+
+
+<h1>A DAY IN THE LIFE OF PEPPER</h1>
+                    <img class="greetpepper" src="images/greetpepper.svg" alt ="introduction of pepper">
+                    <div class="carpet">
+                        <h2>Scroll down to see Pepper's day!</h2>
+                    </div>
+
+*/
