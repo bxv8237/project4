@@ -20,8 +20,16 @@ html, body{
     height:100%;
 }
 
+
 .time_7AM{
-    margin: auto;
+    margin: flex;
+    display: flex;
+    padding: 30px;
+    text-align: left;
+}
+
+.ui-widget-content{
+    margin: 0;
 }
 
 /*.page3{
