@@ -31,6 +31,16 @@ html, body{
 
 .ui-widget-content{
     margin: 0;
+    display: flex;
+}
+
+.hour{
+    flex:auto;
+}
+
+.slideImg{
+    width: 100px;
+    padding-left; 40px;
 }
 
 /*.page3{
