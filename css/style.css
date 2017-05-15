@@ -55,3 +55,14 @@ html, body{
     background-color: #595150;
 
 }
+
+.box{
+    margin: auto;
+    margin-top: 80px;
+    padding: 30px;
+    padding-left: 60px;
+    width: 750px;
+    color: #f9be02;
+    height: 450px;
+    background-color: #0e2a40;
+}
