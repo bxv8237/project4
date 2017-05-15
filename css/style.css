@@ -49,9 +49,11 @@ html, body{
 
 */
 
+.page11{
+    background-color: #595150;
+}
+
 .credits{
-    width: 100%;
-    height: 100%;
     background-color: #595150;
     text-align: left;
     font-size: 15px;
