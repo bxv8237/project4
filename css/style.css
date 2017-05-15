@@ -13,6 +13,7 @@ html, body{
 
 .page3{
     background-color: #9cc7ac;
+    width: 100%;
 }
 
 .intro{
@@ -22,8 +23,8 @@ html, body{
 
 
 .time_7AM{
-    margin: flex;
-    display: flex;
+    width: 50%;
+    margin: 0 auto;
     padding: 30px;
     text-align: left;
 }
