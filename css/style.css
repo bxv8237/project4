@@ -20,6 +20,9 @@ html, body{
     height:100%;
 }
 
+.time_7AM{
+    margin: auto;
+}
 
 /*.page3{
     background-image: url("images/night.svg")
