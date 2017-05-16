@@ -94,14 +94,16 @@
             <!--______________________PAGE-6______________________-->
             <section class="page6">
                 <div class="time_6PM">
-                    <!--Playtime-->
-                    <img class="nightpepper" src="images/night.svg" alt ="introduction of pepper">
+                    <!--homeward bound-->
+                    <div class="smallButton"><b>7PM - Time to go home! <br>( click house )</b></div>
+                    <img class="house" id="imageBox7" src="images/fullhouse1.svg">
+                    <img class="house" id="imageBox8" src="images/fullhouse2.svg">
                 </div>
             </section>
             <!--______________________PAGE-7______________________-->
             <section class="page7">
                 <div class="time_9PM">
-                    <img class="nightpepper" src="images/night.svg" alt ="introduction of pepper">
+                    <img class="nightpepper" src="images/night.svg" alt ="sleeping pepper">
                 </div>
             </section>
             <!--______________________PAGE-8______________________-->
@@ -121,7 +123,7 @@
                         <ul>
                             <li>1. Created all my own images</li>
                             <li>2. Found and implimented a Javascript scroll plug-in</li>
-                            <li>3. Created two gif animations</li>
+                            <li>3. Created one gif animations</li>
                             <li>4. Created a cool interaction to turn on/off lights in house by clicking on the house.</li>
                         </ul>
                     </div>
@@ -178,6 +180,12 @@
         $("#imageBox6").hide();
         $("#button6").click(function() {
             $("#imageBox6").slideToggle("fast");
+        });
+
+        $("#imageBox8").hide();
+        $("#imageBox7").click(function() {
+            $("#imageBox8").show("fast");
+            $("#imageBox7").hide();
         });
     </script>
 

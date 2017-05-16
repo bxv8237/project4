@@ -71,11 +71,15 @@ html, body{
     padding: 30px;
     padding-left: 60px;
     width: 750px;
-    color: #f37566;
+    color: #77615f;
     height: 450px;
     background-color: #bddfcf;
     border: 1px solid #bddfcf;
     border-radius: 10px;
+}
+
+h1{
+    color: #f37566;
 }
 
 /*LINK CSS*/
@@ -83,4 +87,23 @@ html, body{
 a{
     text-decoration: none;
     color: #f37566;
+}
+
+.smallButton{
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 200px;
+    height: 25px;
+    font-size: 12px;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+}
+
+.house{
+    padding-right:30px;
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
 }
