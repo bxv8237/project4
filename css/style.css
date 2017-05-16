@@ -7,51 +7,37 @@ html, body{
     font-size: 30px;
 }
 
-.page1{
-    background-color: #dd685f;
-}
-
-.page3{
-    background-color: #9cc7ac;
-    width: 100%;
-    height: 100%;
-}
-
 .intro{
     width:100%;
     height:100%;
 }
 
+.page1{
+    background-color: #dd685f;
+}
 
-.time_7AM{
+.page3, .page4, .page5{
+    width:100%;
+    height:100%;
+    display: flex;
+}
+
+.time_10AM{
+    padding-top:100px;
     width: 50%;
-    margin: 0 auto;
-    padding: 30px;
-    text-align: left;
-    display: flex;
-
+    height: 100%-100px;
 }
 
-.ui-widget-content{
-    margin: 0;
-    display: flex;
+.time_12PM{
+    padding-top:100px;
+    width: 50%;
+    height: 100%-100px;
 }
 
-.hour{
-    flex:auto;
-}
-
-.imageBox {
-    margin:auto;
-    padding: 20px;
+.customButtonLeft, .customButtonRight{
     text-align: center;
-    background-color: #e5eecc;
-
-    }
-.customButton {
-    text-align:left;
     padding: 20px;
-    margin: auto;
+    margin: 30px auto;
     width: 400px;
     height: 50px;
     background-color: #FFF;
@@ -59,22 +45,16 @@ html, body{
     border-radius: 10px;
     cursor: pointer;
 }
-        
+
 .activeImg{
-    width: 700px;
-    padding: 30px;   
+    width: 500px;
+    padding: 20px;   
 }
 
-.slideImg{
-    width: 100px;
-    padding-left: 40px;
-}
 
-.page10{
-    background-color: #595150;
-}
+/*CREDITS PAGE*/
 
-.page11{
+.page7, .page8{
     background-color: #595150;
 }
 
@@ -94,15 +74,13 @@ html, body{
     color: #f37566;
     height: 450px;
     background-color: #bddfcf;
+    border: 1px solid #bddfcf;
+    border-radius: 10px;
 }
 
-a {
+/*LINK CSS*/
+
+a{
     text-decoration: none;
     color: #f37566;
-}
-
-.page5{
-    width: 50%;
-    height: 100%;
-    background: aquamarine;
 }
