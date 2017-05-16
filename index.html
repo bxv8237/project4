@@ -42,41 +42,45 @@
                 <div class="time_10AM">
                     <!--Breakfast-->
                     <div class="customButtonLeft"><b>7AM - Breakfast!</b></div>
-                    <img class="activeImg" id="imageBoxLeft" src="images/">
+                    <img class="activeImg" id="imageBoxLeft1" src="images/">
                 </div>
                 <div class="time_12PM">
                     <!--Hit the road!-->
                     <div class="customButtonRight"><b>8AM - Hit the road!!</b></div>
-                    <img class="activeImg" id="imageBoxLeft" src="images/8AM.svg">
+                    <img class="activeImg" id="imageBoxLeft2" src="images/8AM.svg">
                 </div>
             </section>
             <section class="page4">
                 <div class="time_10AM">
                     <!--Be helpful-->
                     <div class="customButtonLeft" id="buttonLeft" ><b>10AM - Time to help!</b></div>
-                    <img class="activeImg" id="imageBoxLeft" src="images/10AM.svg">
+                    <img class="activeImg" id="imageBoxLeft3" src="images/10AM.svg">
                 </div>
                 <div class="time_12PM">
                     <!--Playtime-->
                     
                     <div class="customButtonRight"><b>12PM - Playtime!</b></div>
-                    <img class="activeImg" id="imageBoxLeft" src="images/12PM.svg">
+                    <img class="activeImg" id="imageBoxLeft4" src="images/12PM.svg">
                 </div>
             </section>
+            <!---)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) PAGE 5-->
             <section class="page5">
                 <div class="time_10AM">
                     <!--Back to work-->
-                    <div class="customButtonLeft"><b>3PM - Back to work!</b></div>
+                    <div id="buttonLeft">
+                        <div class="customButtonLeft"><b>3PM - Back to work!</b></div>
+                    </div>
                     <img class="activeImg" id="imageBoxLeft" src="images/3PM.svg">
                 </div>
                 <div class="time_12PM">
                     <!--Playtime-->
-                    <div id="button">
+                    <div id="buttonRight">
                         <div class="customButtonRight"><b>5PM - Job well done treats!</b></div>
                     </div>
-                    <img class="activeImg" id="imageBox" src="images/5PM.svg">
+                    <img class="activeImg" id="imageBoxRight" src="images/5PM.svg">
                 </div>
             </section>
+            <!---)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) END OF PAGE 5-->
             <section class="page6">
                 <div class="time_6PM">
                     <!--Playtime-->
@@ -108,6 +112,7 @@
                     </div>
                 </div>
             </section>
+            
         </div>
         <script>
         $(".main").onepage_scroll({
@@ -129,10 +134,15 @@
     </script>
                     
     <script>
-        $("#button").click(function() {
-            $("#imageBox").slideToggle("fast");
-        });
-                        
+        $("#buttonRight").click(function() {
+            $("#imageBoxRight").slideToggle("fast");
+        });             
     </script>
+    <script>
+        $('#buttonLeft').on('click', function() { 
+            $("#imageBoxLeft1").slideToggle("fast")
+        });
+    </script>
+
     </body>
 </html>
