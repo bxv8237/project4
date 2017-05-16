@@ -28,70 +28,83 @@
     </head>
     <body>
         <div class="main">
+            <!--------------PAGE-1---------------->
             <section class="page1">
                 <div class="intro">
                     <img class="greetpepper" src="images/first.svg" alt ="introduction of pepper">
                 </div>
             </section>
+            <!--------------PAGE-2---------------->
             <section class="page2">
                 <div class="pepperWake">
                     <img class="greetpepper" src="images/wake-up.svg" alt ="wake pepper up">
                 </div>
             </section>
+            <!--------------PAGE-3---------------->
             <section class="page3">
                 <div class="time_10AM">
                     <!--Breakfast-->
-                    <div class="customButtonLeft"><b>7AM - Breakfast!</b></div>
-                    <img class="activeImg" id="imageBoxLeft1" src="images/">
+                    <div id="button1">
+                        <div class="customButtonLeft"><b>7AM - Breakfast!</b></div>
+                    </div>
+                    <img class="activeImg" id="imageBox1" src="images/">
                 </div>
                 <div class="time_12PM">
                     <!--Hit the road!-->
-                    <div class="customButtonRight"><b>8AM - Hit the road!!</b></div>
-                    <img class="activeImg" id="imageBoxLeft2" src="images/8AM.svg">
+                    <div id="button2">
+                        <div class="customButtonRight"><b>8AM - Hit the road!!</b></div>
+                    </div>
+                    <img class="activeImg" id="imageBox2" src="images/8AM.svg">
                 </div>
             </section>
+            <!--------------PAGE-4---------------->
             <section class="page4">
                 <div class="time_10AM">
                     <!--Be helpful-->
-                    <div class="customButtonLeft" id="buttonLeft" ><b>10AM - Time to help!</b></div>
-                    <img class="activeImg" id="imageBoxLeft3" src="images/10AM.svg">
+                    <div id="button3">
+                        <div class="customButtonLeft" id="buttonLeft" ><b>10AM - Time to help!</b></div>
+                    </div>
+                    <img class="activeImg" id="imageBox3" src="images/10AM.svg">
                 </div>
                 <div class="time_12PM">
                     <!--Playtime-->
-                    
-                    <div class="customButtonRight"><b>12PM - Playtime!</b></div>
-                    <img class="activeImg" id="imageBoxLeft4" src="images/12PM.svg">
+                    <div id="button4">
+                        <div class="customButtonRight"><b>12PM - Playtime!</b></div>
+                    </div>
+                    <img class="activeImg" id="imageBox4" src="images/12PM.svg">
                 </div>
             </section>
-            <!---)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) PAGE 5-->
+            <!--------------PAGE-5---------------->
             <section class="page5">
                 <div class="time_10AM">
                     <!--Back to work-->
-                    <div id="buttonLeft">
+                    <div id="button5">
                         <div class="customButtonLeft"><b>3PM - Back to work!</b></div>
                     </div>
-                    <img class="activeImg" id="imageBoxLeft" src="images/3PM.svg">
+                    <img class="activeImg" id="imageBox5" src="images/3PM.svg">
                 </div>
                 <div class="time_12PM">
-                    <!--Playtime-->
-                    <div id="buttonRight">
+                    <!--Treat time-->
+                    <div id="button6">
                         <div class="customButtonRight"><b>5PM - Job well done treats!</b></div>
                     </div>
-                    <img class="activeImg" id="imageBoxRight" src="images/5PM.svg">
+                    <img class="activeImg" id="imageBox6" src="images/5PM.svg">
                 </div>
             </section>
-            <!---)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) END OF PAGE 5-->
+            <!--------------PAGE-6---------------->
             <section class="page6">
                 <div class="time_6PM">
                     <!--Playtime-->
                     <img class="nightpepper" src="images/night.svg" alt ="introduction of pepper">
                 </div>
             </section>
+            <!--------------PAGE-7---------------->
             <section class="page7">
                 <div class="time_9PM">
                     <img class="nightpepper" src="images/night.svg" alt ="introduction of pepper">
                 </div>
             </section>
+            <!--------------PAGE-8---------------->
             <section class="page8">
                 <div class="credits">
                     <div class="box">
@@ -112,9 +125,8 @@
                     </div>
                 </div>
             </section>
-            
         </div>
-        <script>
+    <script>
         $(".main").onepage_scroll({
             sectionContainer: "section",
             easing: "ease",
@@ -134,13 +146,60 @@
     </script>
                     
     <script>
-        $("#buttonRight").click(function() {
-            $("#imageBoxRight").slideToggle("fast");
-        });             
-    </script>
-    <script>
-        $('#buttonLeft').on('click', function() { 
-            $("#imageBoxLeft1").slideToggle("fast")
+        $("#button1").click(function() {
+            $("#imageBox1").slideToggle("fast");
+        }); 
+        
+        $("#button2").click(function() {
+            $("#imageBox2").slideToggle("fast");
+        });
+        
+        $("#button3").click(function() {
+            $("#imageBox3").slideToggle("fast");
+        });
+        
+        $("#button4").click(function() {
+            $("#imageBox4").slideToggle("fast");
+        });
+        
+        $("#button5").click(function() {
+            $("#imageBox5").slideToggle("fast");
+        });
+        
+        $("#button6").click(function() {
+            $("#imageBox6").slideToggle("fast");
+        });
+        
+        $("#button7").click(function() {
+            $("#imageBox7").slideToggle("fast");
+        });
+        
+        $("#button8").click(function() {
+            $("#imageBox8").slideToggle("fast");
+        }); 
+        
+        $("#button9").click(function() {
+            $("#imageBox9").slideToggle("fast");
+        });
+        
+        $("#button10").click(function() {
+            $("#imageBox10").slideToggle("fast");
+        });
+        
+        $("#button11").click(function() {
+            $("#imageBox11").slideToggle("fast");
+        });
+        
+        $("#button12").click(function() {
+            $("#imageBox12").slideToggle("fast");
+        });
+        
+        $("#button13").click(function() {
+            $("#imageBox13").slideToggle("fast");
+        });
+        
+        $("#button14").click(function() {
+            $("#imageBox14").slideToggle("fast");
         });
     </script>
 
