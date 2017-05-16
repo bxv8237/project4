@@ -8,14 +8,27 @@ html, body{
 }
 
 .intro{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.navExplain{
+    color: #509eba;
+    font-size: 15px;
+    background-color: #042f42;
+    padding: 10px 35px;
+}
+
+.navExplain a{
+    font-size: 15px;
+    color: #dd685f;
 }
 
 .page1{
     width:100%;
     height:100%;
-    background-image: url("images/navPageImg.svg");
+    background-color: #dd685f;
 }
 
 .page3, .page4, .page5{
@@ -108,8 +121,4 @@ a{
     width: 90%;
     height: 90%;
     cursor: pointer;
-}
-
-.navExplain{
-    font-size: 10px;
 }
