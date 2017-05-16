@@ -68,11 +68,11 @@ html, body{
 .box{
     margin: auto;
     margin-top: 80px;
-    padding: 30px;
+    padding: 50px;
     padding-left: 60px;
     width: 750px;
     color: #77615f;
-    height: 450px;
+    height: 500px;
     background-color: #bddfcf;
     border: 1px solid #bddfcf;
     border-radius: 10px;
