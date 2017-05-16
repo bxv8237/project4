@@ -27,6 +27,8 @@ html, body{
     margin: 0 auto;
     padding: 30px;
     text-align: left;
+    display: flex;
+
 }
 
 .ui-widget-content{
@@ -38,47 +40,34 @@ html, body{
     flex:auto;
 }
 
+.imageBox {
+    margin:auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #e5eecc;
+
+    }
+.customButton {
+    text-align:left;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+        
+.activeImg{
+    width: 700px;
+    padding: 30px;   
+}
+
 .slideImg{
     width: 100px;
-    padding-left; 40px;
+    padding-left: 40px;
 }
-
-/*.page3{
-    background-image: url("images/night.svg")
-}*/
-
-/*
-.greetpepper{
-    width: 300px;
-}
-
-.carpet{
-    background-color: #dd685f;
-    width: 100%;
-    height: 400px;
-    padding-top: 1px;
-}
-
-.time_6AM{
-    background-color: red;
-    width: 100%;
-    height: 800px;
-}
-
-.time_8AM{
-    background-color: aqua;
-    width: 100%;
-    height: 800px;
-}
-
-
-<h1>A DAY IN THE LIFE OF PEPPER</h1>
-                    <img class="greetpepper" src="images/greetpepper.svg" alt ="introduction of pepper">
-                    <div class="carpet">
-                        <h2>Scroll down to see Pepper's day!</h2>
-                    </div>
-
-*/
 
 .page10{
     background-color: #595150;

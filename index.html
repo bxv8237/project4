@@ -64,6 +64,10 @@
             </section>
             <section class="page3">
                 <div class="time_7AM">
+                    <div id="time">
+                        <div class="customButton"><b>7AM - Breakfast</b></div>
+                    </div>
+                    <img class="activeImg" id="imageBox" src="images/wake-up.svg">
                 </div>
             </section>
             <section class="page4">
@@ -136,6 +140,16 @@
             responsiveFallback: false,
             direction: "vertical"
         });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+                    
+    <script>
+        $("#time").click(function() {
+        $("#imageBox").slideToggle("fast");
+    });
+                        
     </script>
     </body>
 </html>
