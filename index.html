@@ -15,10 +15,6 @@
 
         <title>Day In the Life of Pepper</title>
 
-        <!--These scripts and css style reference are for the jQuery Sliders-->
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
-
         <!--This script is for the scroll animation plug-in-->
         <script>
             $(document).ready(function(){
@@ -43,49 +39,56 @@
                 </div>
             </section>
             <section class="page3">
-                <div class="time_7AM">
-                    <div id="time">
-                        <div class="customButton"><b>7AM - Breakfast</b></div>
-                    </div>
-                    <img class="activeImg" id="imageBox" src="images/wake-up.svg">
+                <div class="time_10AM">
+                    <!--Breakfast-->
+                    <div class="customButtonLeft"><b>7AM - Breakfast!</b></div>
+                    <img class="activeImg" id="imageBoxLeft" src="images/">
+                </div>
+                <div class="time_12PM">
+                    <!--Hit the road!-->
+                    <div class="customButtonRight"><b>8AM - Hit the road!!</b></div>
+                    <img class="activeImg" id="imageBoxLeft" src="images/wake-up.svg">
                 </div>
             </section>
             <section class="page4">
-                <div class="time_8AM">
-                    <!--Hit the road-->
+                <div class="time_10AM">
+                    <!--Be helpful-->
+                    <div class="customButtonLeft" id="buttonLeft" ><b>10AM - Time to help!</b></div>
+                    <img class="activeImg" id="imageBoxLeft" src="images/wake-up.svg">
+                </div>
+                <div class="time_12PM">
+                    <!--Playtime-->
+                    
+                    <div class="customButtonRight"><b>12PM - Playtime!</b></div>
+                    <img class="activeImg" id="imageBoxLeft" src="images/wake-up.svg">
                 </div>
             </section>
             <section class="page5">
                 <div class="time_10AM">
-                    <!--Be helpful-->
+                    <!--Back to work-->
+                    <div class="customButtonLeft"><b>3PM - Back to work!</b></div>
+                    <img class="activeImg" id="imageBoxLeft" src="images/wake-up.svg">
                 </div>
                 <div class="time_12PM">
                     <!--Playtime-->
+                    <div id="button">
+                        <div class="customButtonRight">     <b>5PM - Job well done treats!</b></div>
+                    </div>
+                    <img class="activeImg" id="imageBox" src="images/wake-up.svg">
                 </div>
             </section>
             <section class="page6">
+                <div class="time_6PM">
+                    <!--Playtime-->
+                    <img class="nightpepper" src="images/night.svg" alt ="introduction of pepper">
+                </div>
             </section>
             <section class="page7">
-                <div class="time_3PM">
-                    <!--Back to work-->
-                </div>
-            </section>
-            <section class="page8">
-                <div class="time_5PM">
-                    <!--Get treats for a job well done-->
-                </div>
-            </section>
-            <section class="page9">
-                <div class="time_6PM">
-                    <!--Go home!-->
-                </div>
-            </section>
-            <section class="page10">
                 <div class="time_9PM">
                     <img class="nightpepper" src="images/night.svg" alt ="introduction of pepper">
                 </div>
             </section>
-            <section class="page11">
+            <section class="page8">
                 <div class="credits">
                     <div class="box">
                         <h1>THANK YOU!</h1>
@@ -126,9 +129,9 @@
     </script>
                     
     <script>
-        $("#time").click(function() {
-        $("#imageBox").slideToggle("fast");
-    });
+        $("#button").click(function() {
+            $("#imageBox").slideToggle("fast");
+        });
                         
     </script>
     </body>
